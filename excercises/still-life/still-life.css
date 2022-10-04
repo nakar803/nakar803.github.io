@@ -1,0 +1,106 @@
+body{background-color: hotpink}
+.circle {margin-left: 400px;margin-top:300px; height: 250px;
+width: 250px;
+background-color: white;
+border-radius: 50%;
+}
+
+
+
+
+
+.oval{
+          width: 200px;
+          height: 300px;
+          background: cyan;
+          border-radius: 100px / 50px;
+          margin-left:550px;
+          margin-top:-300px
+        }
+
+
+#topcircle{
+  width: 200px;
+  height: 100px;
+  background: steelblue;
+  border-radius: 100px / 50px;
+  margin-left:550px;
+  margin-top:-300px
+
+
+}
+
+
+
+    #star-five {
+      margin: 50px 0;
+      position: relative;
+      display: block;
+      color: gainsboro;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid gold;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+    }
+    #star-five:before {
+      border-bottom: 80px solid gold;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+    }
+    #star-five:after {
+      position: absolute;
+      display: block;
+      color: gold;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid gold;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+
+    #star-five{ margin-left:650px; margin-top:80px}
+
+
+
+
+
+      #heart {
+        position: relative;
+        width: 100px;
+        height: 90px;
+      }
+      #heart:before,
+      #heart:after {
+        position: absolute;
+        content: "";
+        left: 50px;
+        top: 0;
+        width: 50px;
+        height: 80px;
+        background: lightgreen;
+        border-radius: 50px 50px 0 0;
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+      }
+      #heart:after {
+        left: 0;
+        transform: rotate(45deg);
+        transform-origin: 100% 100%;
+      }
+
+
+      #heart{margin-left:350px; margin-top:-100px}
