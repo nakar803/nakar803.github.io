@@ -8,6 +8,7 @@ background-repeat: no-repeat;background-size:100%; background-color: crimson
       position: relative;
       width: 100px;
       height: 90px;
+      margin-left:200px
     }
     #heart:before,
     #heart:after {
@@ -27,4 +28,3 @@ background-repeat: no-repeat;background-size:100%; background-color: crimson
       transform: rotate(45deg);
       transform-origin: 100% 100%;
     }
-  
