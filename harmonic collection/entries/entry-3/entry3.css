@@ -2,49 +2,267 @@
 
 
 
-  .star-five {
+  .star-one {
     margin: 50px 0;
     position: absolute;
     display: block;
-    color: blue;
-    width: -5px;
-    height: -5px;
+    color: gold;
+    width: 1px;
+    height: 1px;
     border-right: 100px solid transparent;
-    border-bottom: 70px solid blue;
+    border-bottom: 70px solid gold;
     border-left: 100px solid transparent;
     transform: rotate(35deg);
   }
-  .star-five:before {
-    border-bottom: 80px solid blue;
+  .star-one:before {
+    border-bottom: 80px solid gold;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     position: absolute;
-    height: -5px;
-    width: -5px;
+    height: 1px;
+    width: 1px;
     top: -45px;
     left: -65px;
     display: block;
     content: '';
     transform: rotate(-35deg);
   }
-  .star-five:after {
+  .star-one:after {
     position: absolute;
     display: block;
-    color: blue;
+    color: gold;
     top: 3px;
     left: -105px;
-    width:-5px;
-    height: -5px;
+    width:1px;
+    height: 1px;
     border-right: 100px solid transparent;
-    border-bottom: 70px solid blue;
+    border-bottom: 70px solid gold;
     border-left: 100px solid transparent;
     transform: rotate(-70deg);
     content: '';
   }
 
-  .star-five {margin-left:850px;margin-top:300px;}
+  .star-one {margin-left:850px;margin-top:300px;}
 
-  body{margin-left:450px; margin-top:-100px;
+.star-one {
+  transition: transform 1s ease-in-out;
+}
+
+.star-one:hover {
+  transform: rotate(360deg);
+}
+
+  body{margin-left:300px; margin-top:-35px;
   background-image: url("https://nakar803.github.io/assets/imgs/entry3.png");
   background-repeat: no-repeat;background-size:100%; background-color:crimson
   }
+
+
+
+
+  .star-two {
+    margin: 50px 0;
+    position: absolute;
+    display: block;
+    color: gold;
+    width: 1px;
+    height: 1px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid gold;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+  }
+  .star-two:before {
+    border-bottom: 80px solid gold;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  .star-two:after {
+    position: absolute;
+    display: block;
+    color: gold;
+    top: 3px;
+    left: -105px;
+    width:1px;
+    height: 1px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid gold;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+  .star-two {margin-left:715px;margin-top:680px;}
+
+  .star-two {
+  transition: transform 1s ease-in-out;
+  }
+
+  .star-two:hover {
+  transform: rotate(360deg);
+  }
+
+
+
+  .star-three {
+    margin: 50px 0;
+    position: absolute;
+    display: block;
+    color: gold;
+    width: 1px;
+    height: 1px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid gold;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+  }
+  .star-three:before {
+    border-bottom: 80px solid gold;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  .star-three:after {
+    position: absolute;
+    display: block;
+    color: gold;
+    top: 3px;
+    left: -105px;
+    width:1px;
+    height: 1px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid gold;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+  .star-three {margin-left:15px;margin-top:300px;}
+
+.star-three {
+  transition: transform 1s ease-in-out;
+}
+
+.star-three:hover {
+  transform: rotate(360deg);
+}
+
+
+.star-four {
+  margin: 50px 0;
+  position: absolute;
+  display: block;
+  color: gold;
+  width: 1px;
+  height: 1px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid gold;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+.star-four:before {
+  border-bottom: 80px solid gold;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+.star-four:after {
+  position: absolute;
+  display: block;
+  color: gold;
+  top: 3px;
+  left: -105px;
+  width:1px;
+  height: 1px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid gold;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+
+.star-four {margin-left:-130px;margin-top:50px;}
+
+.star-four {
+transition: transform 1s ease-in-out;
+}
+
+.star-four:hover {
+transform: rotate(360deg);
+}
+
+
+
+
+
+.star-five {
+  margin: 50px 0;
+  position: absolute;
+  display: block;
+  color: gold;
+  width: 1px;
+  height: 1px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid gold;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+.star-five:before {
+  border-bottom: 80px solid gold;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+.star-five:after {
+  position: absolute;
+  display: block;
+  color: gold;
+  top: 3px;
+  left: -105px;
+  width:1px;
+  height: 1px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid gold;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+
+.star-five {margin-left:-280px;margin-top:550px;}
+
+.star-five {
+transition: transform 1s ease-in-out;
+}
+
+.star-five:hover {
+transform: rotate(360deg);
+}
