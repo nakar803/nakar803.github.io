@@ -4,12 +4,12 @@
     position: absolute;
     display: block;
     color: gold;
-    width: 1px;
-    height: 1px;
+    width: px;
+    height: px;
     border-right: 100px solid transparent;
     border-bottom: 70px solid gold;
     border-left: 100px solid transparent;
-    transform: rotate(35deg);
+    transform: rotate(35deg)scale(40%);;
   }
   .star-one:before {
     border-bottom: 80px solid gold;
@@ -47,6 +47,7 @@
 
 .star-one:hover {
   transform: rotate(360deg);
+
 }
 
   body{margin-left:300px; margin-top:-35px;
@@ -67,7 +68,8 @@
     border-right: 100px solid transparent;
     border-bottom: 70px solid gold;
     border-left: 100px solid transparent;
-    transform: rotate(35deg);
+    transform: rotate(35deg) scale(40%);
+
   }
   .star-two:before {
     border-bottom: 80px solid gold;
@@ -119,7 +121,8 @@
     border-right: 100px solid transparent;
     border-bottom: 70px solid gold;
     border-left: 100px solid transparent;
-    transform: rotate(35deg);
+    transform: rotate(35deg) scale(40%);
+
   }
   .star-three:before {
     border-bottom: 80px solid gold;
@@ -170,7 +173,8 @@
   border-right: 100px solid transparent;
   border-bottom: 70px solid gold;
   border-left: 100px solid transparent;
-  transform: rotate(35deg);
+  transform: rotate(35deg)scale(40%);
+
 }
 .star-four:before {
   border-bottom: 80px solid gold;
@@ -224,7 +228,8 @@ transform: rotate(360deg);
   border-right: 100px solid transparent;
   border-bottom: 70px solid gold;
   border-left: 100px solid transparent;
-  transform: rotate(35deg);
+  transform: rotate(35deg) scale(40%);
+
 }
 .star-five:before {
   border-bottom: 80px solid gold;
@@ -261,5 +266,57 @@ transition: transform 1s ease-in-out;
 }
 
 .star-five:hover {
+transform: rotate(360deg);
+}
+
+
+.star-six {
+  margin: 50px 0;
+  position: absolute;
+  display: block;
+  color: gold;
+  width: 1px;
+  height: 1px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid gold;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg) scale(40%);
+
+}
+.star-six:before {
+  border-bottom: 80px solid gold;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+.star-six:after {
+  position: absolute;
+  display: block;
+  color: gold;
+  top: 3px;
+  left: -105px;
+  width:1px;
+  height: 1px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid gold;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+
+.star-six {margin-left:300px;margin-top:550px;}
+
+.star-six {
+transition: transform 1s ease-in-out;
+}
+
+.star-six:hover {
 transform: rotate(360deg);
 }
