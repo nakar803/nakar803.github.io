@@ -19,8 +19,8 @@
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     position: absolute;
-    height: 56px;
-    width: 56px;
+    height: px;
+    width: px;
     top: -45px;
     left: -65px;
     display: block;
@@ -33,8 +33,8 @@
     color: blue;
     top: 3px;
     left: -105px;
-    width:56px;
-    height: 56px;
+    width:px;
+    height: px;
     border-right: 100px solid transparent;
     border-bottom: 70px solid blue;
     border-left: 100px solid transparent;
