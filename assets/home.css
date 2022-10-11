@@ -1,16 +1,16 @@
 
 
-h1{color:sienna; font-size:100px;
+h1{color:hotpink; font-size:100px;
 }
-h1{font-family:"Helvetica";}
+h1{font-family:"copperplate";}
 
-body{background-color: lightskyblue;}
+body{background-color: lightcyan;}
 
 a{font-size:25px; margin-left:10px;margin-top:250px;}
 
 
-h2{color:sienna; font-size:100px; margin-left:1075px; margin-top:300px}
-h2{font-family:"Helvetica";}
+h2{color:hotpink; font-size:100px; margin-left:1010px; margin-top:300px}
+h2{font-family:"copperplate";}
 
 h3{font-size:25px; margin-left:10px;margin-top:-400px;margin-bottom:px}
 
@@ -21,4 +21,4 @@ h4{font-size:25px; margin-left:1250px;margin-top:-100px;margin-bottom:px}
 h6{font-size:25px; margin-left:10px;margin-top:-30px;}
 
 
-h5{font-size:25px; margin-left:1175px; margin-bottom:-50px;margin-top:250px; font-family:"Helvetica";}
+h5{font-size:25px; margin-left:1125px; margin-bottom:-50px;margin-top:250px; font-family:"copperplate";}
