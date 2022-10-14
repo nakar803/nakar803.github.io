@@ -6,7 +6,7 @@ h1{font-family:"copperplate"; text-align: right;}
 
 body{background-color: lightcyan;}
 
-a{font-size:25px; text-align: right;}
+a{font-size:25px;margin-left:1300px;margin-top:-140px}
 
 
 h2{color:hotpink; font-size:125px; text-align: left;}
@@ -18,7 +18,7 @@ h3{font-size:25px; text-align: right;}
 h4{font-size:25px; text-align: right;}
 
 
-h6{font-size:25px; text-align: right;}
+h6{font-size:25px; text-align: right; margin-top:-140px}
 
 
-h5{font-size:25px; text-align: left;font-family:"copperplate";}
+h5{font-size:25px; text-align: left;font-family:"copperplate"; margin-top:-300px}
