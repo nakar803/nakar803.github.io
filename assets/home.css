@@ -1,24 +1,24 @@
 
 
-h1{color:hotpink; font-size:100px;
+h1{color:hotpink; font-size:125px;
 }
-h1{font-family:"copperplate";}
+h1{font-family:"copperplate"; text-align: right;}
 
-body{background-color: midnightblue;}
+body{background-color: lightcyan;}
 
-a{font-size:25px; margin-left:10px;margin-top:250px;}
+a{font-size:25px; text-align: right;}
 
 
-h2{color:hotpink; font-size:100px; margin-left:1010px; margin-top:300px}
+h2{color:hotpink; font-size:125px; text-align: left;}
 h2{font-family:"copperplate";}
 
-h3{font-size:25px; margin-left:10px;margin-top:-400px;margin-bottom:px}
+h3{font-size:25px; text-align: right;}
 
 
-h4{font-size:25px; margin-left:1250px;margin-top:-100px;margin-bottom:px}
+h4{font-size:25px; text-align: right;}
 
 
-h6{font-size:25px; margin-left:10px;margin-top:-30px;}
+h6{font-size:25px; text-align: right;}
 
 
-h5{font-size:25px; margin-left:1125px; margin-bottom:-50px;margin-top:250px; font-family:"copperplate";}
+h5{font-size:25px; text-align: left;font-family:"copperplate";}
