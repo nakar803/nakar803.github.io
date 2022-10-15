@@ -18,7 +18,7 @@ h1 {
   animation-name: example;
   animation-duration: 8s;
   animation-iteration-count: infinite;
-
+margin-top:-100px
 }
 
 @keyframes example {
