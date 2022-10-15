@@ -1,12 +1,12 @@
 body{
 background-image: url("file:///Users/nakamurarisa/Desktop/Risa-cif22/nakar803.github.io/assets/imgs/entry4.png");
-background-repeat: no-repeat;background-size:90%; background-color:gold; font-family:"helvetica"; font-weight:bolder;
+background-repeat: no-repeat;background-size:90%; background-color:lightcyan; font-family:"helvetica"; font-weight:bolder;
 margin-top:565px; margin-left:275px}
 
-h1{text-align: center;font-size: 85px; color:gold;margin-top:-;}
-h2{text-align: center; margin-top:;font-size: 50px; color:gold}
-h3{text-align: center; font-size: 65px;margin-top; color:gold}
-h4{text-align: center; font-size: 35px; margin-top:-; color:gold;}
+h1{text-align: center;font-size: 85px; color:lightcyan;margin-top:-;}
+h2{text-align: center; margin-top:;font-size: 50px; color:lightcyan}
+h3{text-align: center; font-size: 65px;margin-top; color:lightcyan}
+h4{text-align: center; font-size: 35px; margin-top:-; color:lightcyan;}
 
 
 
@@ -89,3 +89,29 @@ h4 {
   75%  {background-color:lightpink; left:0px; top:;}
   100% {background-color:lightpink; left:0px; top:200px;}
 }
+
+
+@media screen and (max-width: 1024px){body{background-color:gold}
+h1{text-align: center;font-size: 85px; color:gold;margin-top:-;}
+h2{text-align: center; margin-top:;font-size: 50px; color:gold}
+h3{text-align: center; font-size: 65px;margin-top; color:gold}
+h4{text-align: center; font-size: 35px; margin-top:-; color:gold;}}
+
+@media screen and (max-width: 768px){body{background-color:mistyrose}
+h1{text-align: center;font-size: 85px; color:mistyrose;margin-top:-;}
+h2{text-align: center; margin-top:;font-size: 50px; color:mistyrose}
+h3{text-align: center; font-size: 65px;margin-top; color:mistyrose}
+h4{text-align: center; font-size: 35px; margin-top:-; color:mistyrose;}}
+
+@media screen and (max-width: 480px){body{background-color:crimson}
+h1{text-align: center;font-size: 85px; color:crimson;margin-top:-;}
+h2{text-align: center; margin-top:;font-size: 50px; color:crimson}
+h3{text-align: center; font-size: 65px;margin-top; color:crimson}
+h4{text-align: center; font-size: 35px; margin-top:-; color:crimson;}}
+
+
+@media screen and (max-width: 320px){body{background-color:sienna}
+h1{text-align: center;font-size: 85px; color:sienna;margin-top:-;}
+h2{text-align: center; margin-top:;font-size: 50px; color:sienna}
+h3{text-align: center; font-size: 65px;margin-top; color:sienna}
+h4{text-align: center; font-size: 35px; margin-top:-; color:sienna;}}
