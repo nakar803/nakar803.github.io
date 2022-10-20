@@ -1,0 +1,44 @@
+body{background-color: palegreen}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: ;
+  width:70vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.flex-container > div {
+  background-color:ivory ;
+  height:7vw;
+  width: 8vw;
+  margin: 10px;
+  text-align: left;
+  line-height: 50px;
+  border-radius: 45%;
+  font-size: 20px;
+  font-family: "copperplate";
+  color: hotpink
+}
+
+h1{
+  font-family: "helvetica";
+  font-size: 120px;
+  color:hotpink;
+  margin-top:-10px;
+  margin-left:140px
+}
+
+h2{
+  font-family: "helvetica";
+  color:hotpink;
+}
+
+
+div:hover{color:dimgray}
+
+.flex-container > div:hover{background-color: skyblue}
