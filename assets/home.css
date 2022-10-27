@@ -1,26 +1,517 @@
 
 
-h1{color:hotpink; font-size:125px;
+
+ /* unvisited link */
+ h1:link {
+   color: dimgray;font-weight:bold;
+ }
+
+ /* visited link */
+ h1:visited {
+   color: dimgray;font-weight:bold;
+ }
+
+ /* mouse over link */
+ h1:hover {
+   color: palegreen;font-weight:bold;
+ }
+
+ /* selected link */
+ h1:active {
+   color: yellow;font-weight:bold;
+ }
+
+
+
+
+ /* unvisited link */
+ h3:link {
+   color: dimgray;font-weight:bold;
+ }
+
+ /* visited link */
+ h3:visited {
+   color: dimgray;font-weight:bold;
+ }
+
+ /* mouse over link */
+ h3:hover {
+   color: palegreen;font-weight:bold;
+ }
+
+ /* selected link */
+ h3:active {
+   color: yellow;font-weight:bold;
+ }
+
+
+
+
+ /* unvisited link */
+ h4:link {
+   color: dimgray;font-weight:bold;
+ }
+
+ /* visited link */
+ h4:visited {
+   color: dimgray;font-weight:bold;
+ }
+
+ /* mouse over link */
+ h4:hover {
+   color: palegreen;font-weight:bold;
+ }
+
+ /* selected link */
+ h4:active {
+   color: yellow;font-weight:bold;
+ }
+
+
+
+
+
+ /* unvisited link */
+ h5:link {
+   color: dimgray;font-weight:bold;
+ }
+
+ /* visited link */
+ h5:visited {
+   color: dimgray;font-weight:bold;
+ }
+
+ /* mouse over link */
+ h5:hover {
+   color: palegreen;font-weight:bold;
+ }
+
+ /* selected link */
+ h5:active {
+   color: yellow;font-weight:bold;
+ }
+
+
+
+ /* unvisited link */
+ p:link {
+   color: red;font-weight:bold;
+ }
+
+ /* visited link */
+ p:visited {
+   color: dimgray;font-weight:bold;
+ }
+
+ /* mouse over link */
+ p:hover {
+   color: palegreen;font-weight:bold;
+ }
+
+ /* selected link */
+ p:active {
+   color: yellow;font-weight:bold;
+ }
+
+
+
+
+
+
+
+
+body{
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-family: sans-serif;
+
+    background-color: #f1f1f1;
+
+
 }
-h1{font-family:"copperplate"; text-align: right;}
 
-body{background-color: lightcyan;}
+.container .card .icon {
 
-a{font-size:25px;margin-left:1300px;margin-top:-140px}
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: lightcyan;
+
+}
+
+.container .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: pink;
+
+}
+
+.container .card .slide {
+
+    width: 300px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.container .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+}
+
+.container .card:hover .slide.slide1{
+
+    transform: translateY(0px);
+
+}
+
+.container .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
 
 
-h2{color:hotpink; font-size:125px; text-align: left;}
-h2{font-family:"copperplate";}
+}
 
-h3{font-size:25px; text-align: right;}
+.container .card:hover .slide.slide2{
+
+    transform: translateY(0);
+
+}
+
+.container .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 4px;
+
+    bottom: 15px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
 
 
-h4{font-size:25px; text-align: right;}
+
+}
+
+.container .card .slide.slide2 .content
+p {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-size: 20px;
+
+    font-family: "copperplate"
 
 
-h6{font-size:25px; text-align: right; margin-top:-140px}
+}
+
+.container .card .slide.slide2 .content
+h5 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-family: "copperplate"
 
 
-h5{font-size:25px; text-align: left;font-family:"copperplate"; margin-top:-300px}
 
-p{font-size:25px; text-align: right; margin-top:-140px}
+}
+
+.container .card .slide.slide2 .content
+h6 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-family: "copperplate"
+
+
+}
+
+
+
+
+
+
+
+
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-family: sans-serif;
+
+    background-color: lightcyan;
+
+}
+
+.container2 .card .icon {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: lightcyan;
+
+}
+
+.container2 .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: #fff;
+
+}
+
+.container2 .card .slide {
+
+    width: 300px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.container2 .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+}
+
+.container2 .card:hover .slide.slide1{
+
+    transform: translateY(0px);
+
+}
+
+.container2 .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+
+}
+
+.container2 .card:hover .slide.slide2{
+
+    transform: translateY(0);
+
+}
+
+.container2 .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 4px;
+
+    bottom: 15px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+
+}
+
+.container2 .card .slide.slide2 .content
+
+h1 {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-size: 20px;
+
+    font-family: "copperplate"
+
+}
+
+.container2 .card .slide.slide2 .content
+
+h3 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+
+    font-family: "copperplate"
+
+
+}
+
+
+
+.container2 .card .slide.slide2 .content
+
+h4 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-family: "copperplate"
+
+
+}
+
+
+body{background-color: hotpink;
+    overflow: hidden;
+
+}

@@ -96,7 +96,7 @@ h1{text-align: center;font-size: 65px; color:gold;margin-top:-;}
 h2{text-align: center; margin-top:;font-size: 50px; color:gold}
 h3{text-align: center; font-size:55px;margin-top; color:gold}
 h4{text-align: center; font-size: 45px; margin-top:-; color:gold;}}
-div{transform: scale(0.8) translateX(-100px); }
+div{transform: scale(0.8) translate(-300px,400px); }
 
 
 @media screen and (max-width: 768px){body{background-color:mistyrose}
@@ -104,7 +104,7 @@ h1{text-align: center;font-size: 85px; color:mistyrose;margin-top:-;}
 h2{text-align: center; margin-top:;font-size: 50px; color:mistyrose}
 h3{text-align: center; font-size: 65px;margin-top; color:mistyrose}
 h4{text-align: center; font-size: 35px; margin-top:-; color:mistyrose;}
-div{transform: scale(0.7); }
+div{transform: scale(0.7) translate(-400px,200px);; }
 }
 
 @media screen and (max-width: 480px){body{background-color:crimson}
@@ -120,5 +120,5 @@ h1{text-align: center;font-size: 85px; color:sienna;margin-top:-;}
 h2{text-align: center; margin-top:;font-size: 50px; color:sienna}
 h3{text-align: center; font-size: 65px;margin-top; color:sienna}
 h4{text-align: center; font-size: 35px; margin-top:-; color:sienna;}
-div{transform: scale(0.3)  translateX(-100px); }
+div{transform: scale(0.3)  translate(-800px,-1000px); }
 }
