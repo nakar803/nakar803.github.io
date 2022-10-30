@@ -26,12 +26,12 @@
 
  /* unvisited link */
  h3:link {
-   color: dimgray;font-weight:bold;
+   color: palegreen;font-weight:bold;
  }
 
  /* visited link */
  h3:visited {
-   color: dimgray;font-weight:bold;
+   color: palegreen;font-weight:bold;
  }
 
  /* mouse over link */
@@ -153,7 +153,7 @@ body{
 
     height: 100%;
 
-    background: palegreen;
+    background: hotpink;
 
 }
 
@@ -335,7 +335,7 @@ body {
 
     font-family: sans-serif;
 
-    background-color: lightcyan;
+    background-color: lightblue;
 
 }
 
@@ -351,7 +351,7 @@ body {
 
     height: 100%;
 
-    background: palegreen;
+    background: hotpink;
 
 }
 
@@ -511,7 +511,216 @@ h4 {
 }
 
 
-body{background-color: hotpink;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-family: sans-serif;
+
+    background-color: lightblue;
+
+}
+
+.container3 .card .icon {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: hotpink;
+
+}
+
+.container3 .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: #fff;
+
+}
+
+.container3 .card .slide {
+
+    width: 300px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.container3 .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+}
+
+.container3 .card:hover .slide.slide1{
+
+    transform: translateY(0px);
+
+}
+
+.container3 .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+
+}
+
+.container3 .card:hover .slide.slide2{
+
+    transform: translateY(0);
+
+}
+
+.container3 .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 4px;
+
+    bottom: 15px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+
+}
+
+.container3 .card .slide.slide2 .content
+
+h1 {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-size: 20px;
+
+    font-family: "copperplate"
+
+}
+
+.container3 .card .slide.slide2 .content
+
+h3 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+
+    font-family: "copperplate"
+
+
+}
+
+
+
+.container3 .card .slide.slide2 .content
+
+h4 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-family: "copperplate"
+
+
+}
+
+
+body{background-color: lightcyan;
     overflow: hidden;
 
 }
