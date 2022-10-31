@@ -94,22 +94,22 @@
 
 
  /* unvisited link */
- p:link {
+ h2:link {
    color: red;font-weight:bold;
  }
 
  /* visited link */
- p:visited {
+ h2:visited {
    color: dimgray;font-weight:bold;
  }
 
  /* mouse over link */
- p:hover {
+ h2:hover {
    color: palegreen;font-weight:bold;
  }
 
  /* selected link */
- p:active {
+ h2:active {
    color: yellow;font-weight:bold;
  }
 
@@ -257,7 +257,7 @@ body{
 }
 
 .container .card .slide.slide2 .content
-p {
+h2 {
 
     margin: 0;
 
@@ -491,24 +491,6 @@ h3 {
 
 
 
-.container2 .card .slide.slide2 .content
-
-h4 {
-
-    margin: 0 0 10px 0;
-
-    padding: 0;
-
-    font-size: 20px;
-
-    text-align: center;
-
-    color: #414141;
-
-    font-family: "copperplate"
-
-
-}
 
 
 
@@ -538,9 +520,9 @@ body {
 
     display: flex;
 
-    align-items: center;
+    align-items: left;
 
-    justify-content: center;
+    justify-content: left;
 
     font-family: sans-serif;
 
@@ -722,5 +704,19 @@ h4 {
 
 body{background-color: lightcyan;
     overflow: hidden;
+
+}
+
+
+
+
+p{margin-left: -900px;
+  margin-top:700px;
+  font-size: 20px;
+  font-family: "copperplate";
+  text-align: left;
+  color: sienna;
+  font-weight: bolder;
+
 
 }
