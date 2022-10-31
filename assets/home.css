@@ -345,6 +345,7 @@ body {
 
     top: 0;
 
+
     left: 0;
 
     width: 100%;
@@ -702,20 +703,438 @@ h4 {
 }
 
 
-body{background-color: lightcyan;
-    overflow: hidden;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: left;
+
+    justify-content: left;
+
+    font-family: sans-serif;
+
+    background-color: #f1f1f1;
+
+
+}
+
+.container4 .card .icon {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: hotpink;
+
+}
+
+.container4 .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: pink;
+
+}
+
+.container4 .card .slide {
+
+    width: 300px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.container4 .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+}
+
+.container4 .card:hover .slide.slide1{
+
+    transform: translateY(0px);
+
+}
+
+.container4 .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+
+}
+
+.container4 .card:hover .slide.slide2{
+
+    transform: translateY(0);
+
+}
+
+.container4 .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 4px;
+
+    bottom: 15px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+
+
+}
+
+.container4 .card .slide.slide2 .content
+h2 {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-size: 20px;
+
+    font-family: "copperplate"
+
+
+}
+
+.container4 .card .slide.slide2 .content
+h5 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-family: "copperplate"
+
+
+
+}
+
+.container4 .card .slide.slide2 .content
+h6 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-family: "copperplate"
+
 
 }
 
 
 
 
-p{margin-left: -900px;
-  margin-top:700px;
-  font-size: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: left;
+
+    justify-content: left;
+
+    font-family: sans-serif;
+
+    background-color: #f1f1f1;
+
+
+}
+
+.container5 .card .icon {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: hotpink;
+
+}
+
+.container5 .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: pink;
+
+}
+
+.container5 .card .slide {
+
+    width: 300px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.container5 .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+}
+
+.container5 .card:hover .slide.slide1{
+
+    transform: translateY(0px);
+
+}
+
+.container5 .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+
+}
+
+.container5 .card:hover .slide.slide2{
+
+    transform: translateY(0);
+
+}
+
+.container5 .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 4px;
+
+    bottom: 15px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+
+
+}
+
+.container5 .card .slide.slide2 .content
+h2 {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-size: 20px;
+
+    font-family: "copperplate"
+
+
+}
+
+.container5 .card .slide.slide2 .content
+h5 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-family: "copperplate"
+
+
+
+}
+
+.container5 .card .slide.slide2 .content
+h6 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #414141;
+
+    font-family: "copperplate"
+
+
+}
+
+
+
+
+
+
+body{background-color: lightcyan;
+    overflow: ;
+
+}
+
+
+
+
+p{margin-left: 100px;
+  margin-top:-100px;
+  font-size: 15px;
   font-family: "copperplate";
-  text-align: left;
-  color: sienna;
+  text-align: right;
+  color: dimgray;
   font-weight: bolder;
 
 
