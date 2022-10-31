@@ -256,23 +256,6 @@ body{
 
 }
 
-.container .card .slide.slide2 .content
-h2 {
-
-    margin: 0;
-
-    padding: 0;
-
-    text-align: center;
-
-    color: #414141;
-
-    font-size: 20px;
-
-    font-family: "copperplate"
-
-
-}
 
 .container .card .slide.slide2 .content
 h5 {
@@ -293,23 +276,7 @@ h5 {
 
 }
 
-.container .card .slide.slide2 .content
-h6 {
 
-    margin: 0 0 10px 0;
-
-    padding: 0;
-
-    font-size: 20px;
-
-    text-align: center;
-
-    color: #414141;
-
-    font-family: "copperplate"
-
-
-}
 
 
 
@@ -645,42 +612,6 @@ body {
 
 }
 
-.container3 .card .slide.slide2 .content
-
-h1 {
-
-    margin: 0;
-
-    padding: 0;
-
-    text-align: center;
-
-    color: #414141;
-
-    font-size: 20px;
-
-    font-family: "copperplate"
-
-}
-
-.container3 .card .slide.slide2 .content
-
-h3 {
-
-    margin: 0 0 10px 0;
-
-    padding: 0;
-
-    font-size: 20px;
-
-    text-align: center;
-
-
-    font-family: "copperplate"
-
-
-}
-
 
 
 .container3 .card .slide.slide2 .content
@@ -855,42 +786,6 @@ body{
 
 }
 
-.container4 .card .slide.slide2 .content
-h2 {
-
-    margin: 0;
-
-    padding: 0;
-
-    text-align: center;
-
-    color: #414141;
-
-    font-size: 20px;
-
-    font-family: "copperplate"
-
-
-}
-
-.container4 .card .slide.slide2 .content
-h5 {
-
-    margin: 0 0 10px 0;
-
-    padding: 0;
-
-    font-size: 20px;
-
-    text-align: center;
-
-    color: #414141;
-
-    font-family: "copperplate"
-
-
-
-}
 
 .container4 .card .slide.slide2 .content
 h6 {
@@ -1079,42 +974,8 @@ h2 {
 
 }
 
-.container5 .card .slide.slide2 .content
-h5 {
-
-    margin: 0 0 10px 0;
-
-    padding: 0;
-
-    font-size: 20px;
-
-    text-align: center;
-
-    color: #414141;
-
-    font-family: "copperplate"
 
 
-
-}
-
-.container5 .card .slide.slide2 .content
-h6 {
-
-    margin: 0 0 10px 0;
-
-    padding: 0;
-
-    font-size: 20px;
-
-    text-align: center;
-
-    color: #414141;
-
-    font-family: "copperplate"
-
-
-}
 
 
 
@@ -1122,20 +983,18 @@ h6 {
 
 
 body{background-color: lightcyan;
-    overflow: ;
+    overflow:hidden;
 
 }
 
 
 
 
-p{margin-left: 100px;
-  margin-top:-100px;
-  font-size: 15px;
+p{
+  font-size: 25px;
   font-family: "copperplate";
-  text-align: right;
+  text-align: center;
   color: dimgray;
   font-weight: bolder;
-
 
 }
