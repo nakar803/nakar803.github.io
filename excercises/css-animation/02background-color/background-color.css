@@ -1,0 +1,28 @@
+body {
+    animation: change-color 8s steps(4, start) infinite;;
+    animation-direction: alternate;
+}
+
+@keyframes change-color {
+   0% {
+    background-color: ivory;
+  }
+
+  25% {
+    background-color: hotpink;
+  }
+
+  50% {
+    background-color: lightcyan;
+  }
+
+
+  75% {
+    background-color: palegreen;
+  }
+
+
+    100% {
+    background-color: lightpink;
+  }
+}

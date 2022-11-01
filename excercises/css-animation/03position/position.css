@@ -1,0 +1,67 @@
+
+html, body, * {
+margin: 0;
+padding: 0;
+background-color: hotpink;
+cursor: default;
+}
+
+.canvas {
+width: 50%;
+height: 50%;
+}
+
+
+/*constant animation*/
+
+.animate_constant {
+background-color: palegreen;
+border-radius: 70%;
+border-width: 5px;
+height: 150px;
+width: 25%;
+float: left;
+top: 10px;
+position: relative;
+/*  animation-name: constant;
+animation-duration: 4s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;*/
+animation: constant 4s linear infinite alternate;
+}
+
+
+@keyframes constant {
+0%   {top:0px;}
+25%   {top:200px;}
+50%   {top:400px;}
+75%   {top:600px;}
+100% {top:800px;}
+}
+
+
+
+/*animation with steps*/
+
+.animate_steps {
+background-color: lightcyan;
+border-radius: 50%;
+border-width: 5px;
+height: 150px;
+width: 25%;
+float: left;
+top: 10px;
+position: relative;
+animation: move-in-steps 4s steps(4) infinite;
+animation-direction: alternate;
+}
+
+
+@keyframes move-in-steps {
+0%   {top:0px;}
+25%   {top:100px;}
+50%   {top:300px;}
+75%   {top:500px;}
+100% {top:800px;}
+}
