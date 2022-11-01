@@ -1,118 +1,16 @@
 
 
 
- /* unvisited link */
- h1:link {
-   color: dimgray;font-weight:bold;
- }
-
- /* visited link */
- h1:visited {
-   color: dimgray;font-weight:bold;
- }
-
- /* mouse over link */
- h1:hover {
-   color: palegreen;font-weight:bold;
- }
-
- /* selected link */
- h1:active {
-   color: yellow;font-weight:bold;
- }
+a:link { text-decoration: none; }
 
 
+a:visited { text-decoration: none; }
 
 
- /* unvisited link */
- h3:link {
-   color: palegreen;font-weight:bold;
- }
-
- /* visited link */
- h3:visited {
-   color: palegreen;font-weight:bold;
- }
-
- /* mouse over link */
- h3:hover {
-   color: palegreen;font-weight:bold;
- }
-
- /* selected link */
- h3:active {
-   color: yellow;font-weight:bold;
- }
+a:hover { text-decoration: none; }
 
 
-
-
- /* unvisited link */
- h4:link {
-   color: dimgray;font-weight:bold;
- }
-
- /* visited link */
- h4:visited {
-   color: dimgray;font-weight:bold;
- }
-
- /* mouse over link */
- h4:hover {
-   color: palegreen;font-weight:bold;
- }
-
- /* selected link */
- h4:active {
-   color: yellow;font-weight:bold;
- }
-
-
-
-
-
- /* unvisited link */
- h5:link {
-   color: dimgray;font-weight:bold;
- }
-
- /* visited link */
- h5:visited {
-   color: dimgray;font-weight:bold;
- }
-
- /* mouse over link */
- h5:hover {
-   color: palegreen;font-weight:bold;
- }
-
- /* selected link */
- h5:active {
-   color: yellow;font-weight:bold;
- }
-
-
-
- /* unvisited link */
- h2:link {
-   color: red;font-weight:bold;
- }
-
- /* visited link */
- h2:visited {
-   color: dimgray;font-weight:bold;
- }
-
- /* mouse over link */
- h2:hover {
-   color: palegreen;font-weight:bold;
- }
-
- /* selected link */
- h2:active {
-   color: yellow;font-weight:bold;
- }
-
+a:active { text-decoration: none; }
 
 
 
