@@ -1,3 +1,51 @@
 body{
-  background-color: greenyellow
+  background-color: sienna;
+  color:greenyellow;
+  font-size: 100px;
+  overflow: hidden;
+
+}
+
+#outer {
+  height:700px;
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+
+#outer{
+    height:700px;
+    margin-right:10px;
+    margin-top:-300px;
+    animation-duration: 4s;
+    animation-name: spinType;
+    animation-iteration-count: infinite;
+
+  }
+
+
+
+
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.inner{
+  height:700px;
+  margin-left:400px;
+  margin-top:50px;
+  animation-duration: 4s;
+  animation-name: spinType;
+  animation-iteration-count: infinite;
+
 }
