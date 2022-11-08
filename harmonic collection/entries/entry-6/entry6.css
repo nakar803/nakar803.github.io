@@ -13,11 +13,11 @@ body{
 #outer{
     height:;
     margin-right:10px;
-    top:;
+    top:500px;
     animation-duration: 6s;
     animation-name: spinType;
     animation-iteration-count: infinite;
-
+    position: absolute;
   }
 
 
@@ -37,8 +37,9 @@ body{
 .inner{
   height:;
   margin-left:;
-  margin-top:-1500px;
-  animation-duration: 5s;
+  margin-top:-600px;
+  position:absolute;
+  animation-duration: 6s;
   animation-name: spinType;
   animation-iteration-count: infinite;
 
