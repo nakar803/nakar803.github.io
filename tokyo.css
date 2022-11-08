@@ -1,0 +1,37 @@
+body{
+  background-color: hotpink;
+  font-family: "copperplate";
+}
+
+
+h1{
+  color:lightcyan;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+h2{
+  color:lightcyan;
+  font-size: 30px;
+  text-align: center
+}
+
+
+h2{
+  color:lightcyan;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
