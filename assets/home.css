@@ -21,7 +21,6 @@ h1{color:hotpink}
 
 
 
-
 body{
 
     margin: 0;
@@ -899,7 +898,7 @@ body{background-color: lightcyan;
 p{
   font-size: 25px;
   font-family: "copperplate";
-  text-align: center;
+  margin-left: 200px;
   color: dimgray;
   font-weight: bolder;
 
