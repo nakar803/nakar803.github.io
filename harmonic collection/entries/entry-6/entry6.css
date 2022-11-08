@@ -6,21 +6,15 @@ body{
 
 }
 
-#outer {
-  height:700px;
-  position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-  }
+
 
 
 
 #outer{
-    height:700px;
+    height:;
     margin-right:10px;
-    margin-top:-300px;
-    animation-duration: 4s;
+    top:;
+    animation-duration: 6s;
     animation-name: spinType;
     animation-iteration-count: infinite;
 
@@ -41,10 +35,10 @@ body{
 }
 
 .inner{
-  height:700px;
-  margin-left:400px;
-  margin-top:50px;
-  animation-duration: 4s;
+  height:;
+  margin-left:;
+  margin-top:-1500px;
+  animation-duration: 5s;
   animation-name: spinType;
   animation-iteration-count: infinite;
 
