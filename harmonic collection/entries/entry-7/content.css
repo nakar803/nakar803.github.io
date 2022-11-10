@@ -1,0 +1,28 @@
+body{
+  background-color: lightcyan
+}
+
+a{
+  margin-left: 65px;
+
+}
+
+.a1{
+  text-align: center;
+  margin-top:175px;
+  margin-left:-50px
+
+}
+
+
+.a2{
+  text-align: center;
+  margin-top:100px;
+  margin-left:-50px
+
+}
+
+body{margin-left:300px; margin-top:-35px;
+background-image: url("file:///Users/nakamurarisa/Desktop/Risa-cif22/nakar803.github.io/assets/imgs/aback.png");
+background-repeat: no-repeat;background-size:100%; background-color:lightcyan
+}
