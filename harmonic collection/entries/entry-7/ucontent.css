@@ -1,5 +1,5 @@
 body{
-  background-color: lightcyan
+  background-color: lemonchiffon
 }
 
 a{
@@ -12,4 +12,10 @@ a{
   text-align: center;
   margin-top:350px;
   margin-left:-50px;
+}
+
+
+body{
+background-image: url("file:///Users/nakamurarisa/Desktop/Risa-cif22/nakar803.github.io/assets/imgs/uback.png");
+background-repeat: no-repeat;background-size:100%; background-color:lemonchiffon
 }
