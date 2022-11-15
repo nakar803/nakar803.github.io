@@ -1,9 +1,9 @@
 .button {
   background-color: #lightcyan;
-  border: 2px solid #skyblue;
+  border: 3px solid #skyblue;
   border-radius: 30px;
   box-shadow: palegreen 4px 4px 0 0;
-  color: sienna;
+  color: #422800;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -18,7 +18,7 @@
 }
 
 .button:hover {
-  background-color: palegreen;
+  background-color: ivory;
 }
 
 .button:active {
