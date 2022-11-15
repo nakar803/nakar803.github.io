@@ -1,0 +1,39 @@
+.button {
+  background-color: #lightcyan;
+  border: 2px solid #skyblue;
+  border-radius: 30px;
+  box-shadow: palegreen 4px 4px 0 0;
+  color: sienna;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: palegreen;
+}
+
+.button:active {
+  box-shadow: palegreen 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+body{
+	background-color: hotpink
+}
