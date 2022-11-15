@@ -1,5 +1,5 @@
 body{
-  background-color: lightcyan
+  background-color: mediumaquamarine
 }
 
 a{
@@ -9,7 +9,7 @@ a{
 
 .i1{
   text-align: center;
-  margin-top:175px;
+  margin-top:185px;
   margin-left:-50px
 }
 
@@ -19,4 +19,9 @@ a{
   margin-top:100px;
   margin-left:-50px
 
+}
+
+body{
+background-image: url("file:///Users/nakamurarisa/Desktop/Risa-cif22/nakar803.github.io/assets/imgs/iback.png");
+background-repeat: no-repeat;background-size:100%; background-color:mediumaquamarine
 }

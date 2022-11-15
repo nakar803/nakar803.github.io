@@ -9,7 +9,11 @@ a{
 
 .e1{
   text-align: center;
-  margin-top:290px;
+  margin-top:340px;
   margin-left:-50px
 
+}
+body{
+background-image: url("file:///Users/nakamurarisa/Desktop/Risa-cif22/nakar803.github.io/assets/imgs/eback.png");
+background-repeat: no-repeat;background-size:100%; background-color:salmon
 }

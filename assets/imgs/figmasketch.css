@@ -1,27 +1,15 @@
 body{
   background-color: hotpink;
   font-family: "copperplate";
+  color:ivory
 }
-
 
 h1{
-  color:lightcyan;
-  font-size: 30px;
+  color:ivory;
   text-align: center;
-}
-
-
-h2{
-  color:lightcyan;
-  font-size: 30px;
-  text-align: center
-}
-
-
-h2{
-  color:lightcyan;
-  font-size: 30px;
-  text-align: center;
+  margin-top: 100px;
+  overflow: hidden;
+  font-size: 20px
 }
 
 
